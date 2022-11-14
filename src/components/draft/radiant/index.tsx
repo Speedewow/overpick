@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useAppDispatch, useAppSelector } from '../../../../src/hooks';
 import { radiantPickSelector } from '../../../selectors';
-import { removeRadiantHero } from '../../../reducers/reducer';
+import { removeRadiantHero } from '../../../slices/pickSlice';
 import { HeroInterface } from '../../../data/types';
 import styles from '../styles.module.scss';
 
@@ -25,6 +25,7 @@ export const Radiant = () => {
             src={hero.horizontal}
             key={index}
             draggable="false"
+            alt={hero.name}
           />
         );
     });

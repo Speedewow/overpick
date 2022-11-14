@@ -12,6 +12,7 @@ export type PickType = {
 
 export type StateType = {
   pick: PickType;
+  start: boolean;
 };
 
 export enum HeroStatus {

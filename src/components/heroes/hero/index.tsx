@@ -31,6 +31,7 @@ export const Hero = ({ hero, onClick, status }: Props) => {
         className={styles.image}
         onClick={() => handleClick(hero)}
         draggable="false"
+        alt={hero.name}
       />
       <p className={styles.name}>{hero.name}</p>
     </li>

@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { pickSelector } from '../../../selectors';
 import { useAppDispatch, useAppSelector } from '../../../hooks';
-import { clearState } from '../../../reducers/reducer';
+import { clearState } from '../../../slices/pickSlice';
+import { setStart } from '../../../slices/startSlice';
+import { START, RESET } from './constants';
 import styles from './styles.module.scss';
-type Props = {
-  onStart: () => void;
-};
-export const Control = ({ onStart }: Props) => {
+
+export const Control = () => {
   const pick = useAppSelector(pickSelector);
   const dispatch = useAppDispatch();
 
@@ -15,20 +15,22 @@ export const Control = ({ onStart }: Props) => {
       ? styles.reset
       : styles.resetDisable;
   const StartClassName =
-    !pick.radiant.every(element => element !== null) &&
-    !pick.dire.every(element => element !== null)
+    pick.radiant.every(element => element !== null) && pick.dire.every(element => element !== null)
       ? styles.start
       : styles.startDisable;
 
   const handleReset = () => {
     dispatch(clearState());
   };
+  const handleStart = () => {
+    dispatch(setStart());
+  };
 
   return (
     <div className={styles.container}>
-      <button className={StartClassName} onClick={onStart} />
-      <button className={ResetClassName} onClick={handleReset}>
-        RESET
+      <button className={StartClassName} onClick={handleStart} aria-label={START} />
+      <button className={ResetClassName} onClick={handleReset} aria-label={RESET}>
+        {RESET}
       </button>
     </div>
   );

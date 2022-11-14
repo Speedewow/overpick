@@ -5,16 +5,25 @@ import { HeroInterface, HeroStatus } from '../../data/types';
 
 export const useHeroStatus = (hero: HeroInterface, value?: string) => {
   const [status, setStatus] = useState<HeroStatus>(HeroStatus.Active);
+  const [search, setSearch] = useState<boolean>(false);
   const pick = useAppSelector(pickSelector);
-  const search =
-    value &&
-    (hero.name.toLowerCase().includes(value.toLowerCase()) ||
+
+  useEffect(() => {
+    if (!value) {
+      setSearch(false);
+    } else if (
       hero.name
         .split(' ')
         .map(word => word[0])
         .join('')
         .toLowerCase()
-        .includes(value.toLowerCase()));
+        .includes(value.toLowerCase())
+    ) {
+      setSearch(false);
+    } else if (!hero.name.toLowerCase().includes(value.toLowerCase())) {
+      setSearch(true);
+    }
+  }, [value]);
 
   useEffect(() => {
     if (search) {
@@ -24,7 +33,7 @@ export const useHeroStatus = (hero: HeroInterface, value?: string) => {
     } else if (pick.dire.includes(hero)) {
       setStatus(HeroStatus.Dire);
     } else setStatus(HeroStatus.Active);
-  }, [value, pick]);
+  }, [search, pick, value]);
 
   return status;
 };
