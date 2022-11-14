@@ -1,0 +1,88 @@
+.container {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+
+.start {
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  margin-top: -5px;
+  transition: 0.4s;
+  cursor: pointer;
+  &::before {
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: no-repeat center/contain url(../../../../content/icons/startIconActive.svg);
+  }
+  &::after {
+    margin: 0;
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px #00bfff;
+    z-index: 1;
+    position: absolute;
+    top: 22px;
+    left: 17px;
+  }
+  &:hover {
+    transform: scale(1.2);
+  }
+  &Disable {
+    opacity: 0.7;
+    pointer-events: none;
+    width: 60px;
+    height: 60px;
+    background: no-repeat center/contain url(../../../../content/icons/startIcon.svg);
+    border: none;
+    margin-top: -5px;
+  }
+}
+
+.reset {
+  margin-top: 15px;
+  width: 60px;
+  height: 20px;
+  background-color: #343d47;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  border-radius: 6px;
+  transition: 0.4s;
+  font-weight: 400;
+  font-size: 10px;
+  color: #ede0e0;
+  padding: 0;
+  &:hover {
+    padding: 0;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 10px;
+    transform: scale(1.1);
+    outline: 1px solid #343d47;
+    box-shadow: 0px 0px 5px 1px #ede0e0;
+  }
+  &Disable {
+    transition: 0.4s;
+    margin-top: 15px;
+    width: 60px;
+    height: 20px;
+    background-color: #343d47;
+    border: none;
+    opacity: 0;
+  }
+}

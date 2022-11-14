@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 1500px;
+  max-height: 700px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.heroes {
+  gap: 4px;
+  display: grid;
+  grid-template-columns: repeat(23, 50px);
+  grid-template-rows: minmax(2, 75px);
+  position: relative;
+  padding: 0;
+}
+
+%title {
+  position: absolute;
+  top: -40px;
+  left: 25px;
+  color: #4f5b68;
+  font-weight: 900;
+  font-size: 14px;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -1px;
+    left: -24px;
+  }
+}
+
+.strength {
+  @extend %title;
+  &::before {
+    background: no-repeat center/contain url(../../../content/icons/strengthIcon.png);
+  }
+}
+
+.agility {
+  @extend %title;
+  &::before {
+    background: no-repeat center/contain url(../../../content/icons/agilityIcon.png);
+  }
+}
+
+.intelligence {
+  @extend %title;
+  &::before {
+    background: no-repeat center/contain url(../../../content/icons/intelligenceIcon.png);
+  }
+}

@@ -1,0 +1,38 @@
+.analysis {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  &Active {
+    transition: visibility 0.6s linear, opacity 0.6s linear;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.pick {
+  width: 30%;
+  height: 100vh;
+  background-color: #1c242d;
+  &Visible {
+    visibility: hidden;
+    transform: translateY(-150%);
+  }
+}
+
+.stats {
+  width: 40%;
+  height: 100vh;
+}
