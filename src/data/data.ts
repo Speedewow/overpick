@@ -1,130 +1,130 @@
 //vertical
 //STRENGTH
-import abaddon_v from '../../content/images/formated/abaddon_h.png';
-import alchemist_v from '../../content/images/formated/alchemist_h.png';
-import axe_v from '../../content/images/formated/axe_h.png';
-import beastmaster_v from '../../content/images/formated/beastmaster_h.png';
-import brewmaster_v from '../../content/images/formated/brewmaster_h.png';
-import bristleback_v from '../../content/images/formated/bristleback_h.png';
-import centaur_v from '../../content/images/formated/centaur_h.png';
-import ck_v from '../../content/images/formated/ck_h.png';
-import clockwerk_v from '../../content/images/formated/clockwerk_h.png';
-import dawnbreaker_v from '../../content/images/formated/dawnbreaker_h.png';
-import doom_v from '../../content/images/formated/doom_h.png';
-import dk_v from '../../content/images/formated/dk_h.png';
-import es_v from '../../content/images/formated/es_h.png';
-import earthshaker_v from '../../content/images/formated/earthshaker_h.png';
-import et_v from '../../content/images/formated/et_h.png';
-import huskar_v from '../../content/images/formated/huskar_h.png';
-import io_v from '../../content/images/formated/io_h.png';
-import kunka_v from '../../content/images/formated/kunka_h.png';
-import lc_v from '../../content/images/formated/lc_h.png';
-import lifestealer_v from '../../content/images/formated/lifestealer_h.png';
-import lycan_v from '../../content/images/formated/lycan_h.png';
-import magnus_v from '../../content/images/formated/magnus_h.png';
-import marci_v from '../../content/images/formated/marci_h.png';
-import mars_v from '../../content/images/formated/mars_h.png';
-import ns_v from '../../content/images/formated/ns_h.png';
-import omniknight_v from '../../content/images/formated/omniknight_h.png';
-import phoenix_v from '../../content/images/formated/phoenix_h.png';
-import primal_v from '../../content/images/formated/primal_h.png';
-import pudge_v from '../../content/images/formated/pudge_h.png';
-import sk_v from '../../content/images/formated/sk_h.png';
-import slardar_v from '../../content/images/formated/slardar_h.png';
-import snapfire_v from '../../content/images/formated/snapfire_h.png';
-import sb_v from '../../content/images/formated/sb_h.png';
-import sven_v from '../../content/images/formated/sven_h.png';
-import tidehunter_v from '../../content/images/formated/tidehunter_h.png';
-import timbersaw_v from '../../content/images/formated/timbersaw_h.png';
-import tiny_v from '../../content/images/formated/tiny_h.png';
-import treant_v from '../../content/images/formated/treant_h.png';
-import tusk_v from '../../content/images/formated/tusk_h.png';
-import underlord_v from '../../content/images/formated/underlord_h.png';
-import undying_v from '../../content/images/formated/undying_h.png';
-import wk_v from '../../content/images/formated/wk_h.png';
+import abaddon_v from '../../content/images/horizontal/abaddon_h.webp';
+import alchemist_v from '../../content/images/horizontal/alchemist_h.webp';
+import axe_v from '../../content/images/horizontal/axe_h.webp';
+import beastmaster_v from '../../content/images/horizontal/beastmaster_h.webp';
+import brewmaster_v from '../../content/images/horizontal/brewmaster_h.webp';
+import bristleback_v from '../../content/images/horizontal/bristleback_h.webp';
+import centaur_v from '../../content/images/horizontal/centaur_h.webp';
+import ck_v from '../../content/images/horizontal/ck_h.webp';
+import clockwerk_v from '../../content/images/horizontal/clockwerk_h.webp';
+import dawnbreaker_v from '../../content/images/horizontal/dawnbreaker_h.webp';
+import doom_v from '../../content/images/horizontal/doom_h.webp';
+import dk_v from '../../content/images/horizontal/dk_h.webp';
+import es_v from '../../content/images/horizontal/es_h.webp';
+import earthshaker_v from '../../content/images/horizontal/earthshaker_h.webp';
+import et_v from '../../content/images/horizontal/et_h.webp';
+import huskar_v from '../../content/images/horizontal/huskar_h.webp';
+import io_v from '../../content/images/horizontal/io_h.webp';
+import kunka_v from '../../content/images/horizontal/kunka_h.webp';
+import lc_v from '../../content/images/horizontal/lc_h.webp';
+import lifestealer_v from '../../content/images/horizontal/lifestealer_h.webp';
+import lycan_v from '../../content/images/horizontal/lycan_h.webp';
+import magnus_v from '../../content/images/horizontal/magnus_h.webp';
+import marci_v from '../../content/images/horizontal/marci_h.webp';
+import mars_v from '../../content/images/horizontal/mars_h.webp';
+import ns_v from '../../content/images/horizontal/ns_h.webp';
+import omniknight_v from '../../content/images/horizontal/omniknight_h.webp';
+import phoenix_v from '../../content/images/horizontal/phoenix_h.webp';
+import primal_v from '../../content/images/horizontal/primal_h.webp';
+import pudge_v from '../../content/images/horizontal/pudge_h.webp';
+import sk_v from '../../content/images/horizontal/sk_h.webp';
+import slardar_v from '../../content/images/horizontal/slardar_h.webp';
+import snapfire_v from '../../content/images/horizontal/snapfire_h.webp';
+import sb_v from '../../content/images/horizontal/sb_h.webp';
+import sven_v from '../../content/images/horizontal/sven_h.webp';
+import tidehunter_v from '../../content/images/horizontal/tidehunter_h.webp';
+import timbersaw_v from '../../content/images/horizontal/timbersaw_h.webp';
+import tiny_v from '../../content/images/horizontal/tiny_h.webp';
+import treant_v from '../../content/images/horizontal/treant_h.webp';
+import tusk_v from '../../content/images/horizontal/tusk_h.webp';
+import underlord_v from '../../content/images/horizontal/underlord_h.webp';
+import undying_v from '../../content/images/horizontal/undying_h.webp';
+import wk_v from '../../content/images/horizontal/wk_h.webp';
 //AGILITY
-import am_v from '../../content/images/formated/am_h.png';
-import arc_v from '../../content/images/formated/arc_h.png';
-import bloodseeker_v from '../../content/images/formated/bloodseeker_h.png';
-import bh_v from '../../content/images/formated/bh_h.png';
-import broodmother_v from '../../content/images/formated/broodmother_h.png';
-import clinkz_v from '../../content/images/formated/clinkz_h.png';
-import drow_v from '../../content/images/formated/drow_h.png';
-import ember_v from '../../content/images/formated/ember_h.png';
-import faceless_v from '../../content/images/formated/faceless_h.png';
-import gyrocopter_v from '../../content/images/formated/gyrocopter_h.png';
-import hoodwink_v from '../../content/images/formated/hoodwink_h.png';
-import juggernaut_v from '../../content/images/formated/juggernaut_h.png';
-import ld_v from '../../content/images/formated/ld_h.png';
-import luna_v from '../../content/images/formated/luna_h.png';
-import medusa_v from '../../content/images/formated/medusa_h.png';
-import meepo_v from '../../content/images/formated/meepo_h.png';
-import mirana_v from '../../content/images/formated/mirana_h.png';
-import mk_v from '../../content/images/formated/mk_h.png';
-import morphling_v from '../../content/images/formated/morphling_h.png';
-import naga_v from '../../content/images/formated/naga_h.png';
-import nyx_v from '../../content/images/formated/nyx_h.png';
-import pangolier_v from '../../content/images/formated/pangolier_h.png';
-import pa_v from '../../content/images/formated/pa_h.png';
-import pl_v from '../../content/images/formated/pl_h.png';
-import razor_v from '../../content/images/formated/razor_h.png';
-import riki_v from '../../content/images/formated/riki_h.png';
-import sf_v from '../../content/images/formated/sf_h.png';
-import slark_v from '../../content/images/formated/slark_h.png';
-import sniper_v from '../../content/images/formated/sniper_h.png';
-import spectre_v from '../../content/images/formated/spectre_h.png';
-import ta_v from '../../content/images/formated/ta_h.png';
-import terrorblade_v from '../../content/images/formated/terrorblade_h.png';
-import troll_v from '../../content/images/formated/troll_h.png';
-import ursa_v from '../../content/images/formated/ursa_h.png';
-import venge_v from '../../content/images/formated/venge_h.png';
-import venomancer_v from '../../content/images/formated/venomancer_h.png';
-import viper_v from '../../content/images/formated/viper_h.png';
-import weaver_v from '../../content/images/formated/weaver_h.png';
+import am_v from '../../content/images/horizontal/am_h.webp';
+import arc_v from '../../content/images/horizontal/arc_h.webp';
+import bloodseeker_v from '../../content/images/horizontal/bloodseeker_h.webp';
+import bh_v from '../../content/images/horizontal/bh_h.webp';
+import broodmother_v from '../../content/images/horizontal/broodmother_h.webp';
+import clinkz_v from '../../content/images/horizontal/clinkz_h.webp';
+import drow_v from '../../content/images/horizontal/drow_h.webp';
+import ember_v from '../../content/images/horizontal/ember_h.webp';
+import faceless_v from '../../content/images/horizontal/faceless_h.webp';
+import gyrocopter_v from '../../content/images/horizontal/gyrocopter_h.webp';
+import hoodwink_v from '../../content/images/horizontal/hoodwink_h.webp';
+import juggernaut_v from '../../content/images/horizontal/juggernaut_h.webp';
+import ld_v from '../../content/images/horizontal/ld_h.webp';
+import luna_v from '../../content/images/horizontal/luna_h.webp';
+import medusa_v from '../../content/images/horizontal/medusa_h.webp';
+import meepo_v from '../../content/images/horizontal/meepo_h.webp';
+import mirana_v from '../../content/images/horizontal/mirana_h.webp';
+import mk_v from '../../content/images/horizontal/mk_h.webp';
+import morphling_v from '../../content/images/horizontal/morphling_h.webp';
+import naga_v from '../../content/images/horizontal/naga_h.webp';
+import nyx_v from '../../content/images/horizontal/nyx_h.webp';
+import pangolier_v from '../../content/images/horizontal/pangolier_h.webp';
+import pa_v from '../../content/images/horizontal/pa_h.webp';
+import pl_v from '../../content/images/horizontal/pl_h.webp';
+import razor_v from '../../content/images/horizontal/razor_h.webp';
+import riki_v from '../../content/images/horizontal/riki_h.webp';
+import sf_v from '../../content/images/horizontal/sf_h.webp';
+import slark_v from '../../content/images/horizontal/slark_h.webp';
+import sniper_v from '../../content/images/horizontal/sniper_h.webp';
+import spectre_v from '../../content/images/horizontal/spectre_h.webp';
+import ta_v from '../../content/images/horizontal/ta_h.webp';
+import terrorblade_v from '../../content/images/horizontal/terrorblade_h.webp';
+import troll_v from '../../content/images/horizontal/troll_h.webp';
+import ursa_v from '../../content/images/horizontal/ursa_h.webp';
+import venge_v from '../../content/images/horizontal/venge_h.webp';
+import venomancer_v from '../../content/images/horizontal/venomancer_h.webp';
+import viper_v from '../../content/images/horizontal/viper_h.webp';
+import weaver_v from '../../content/images/horizontal/weaver_h.webp';
 //INTELLIGENCE
-import aa_v from '../../content/images/formated/aa_h.png';
-import bane_v from '../../content/images/formated/bane_h.png';
-import batrider_v from '../../content/images/formated/batrider_h.png';
-import chen_v from '../../content/images/formated/chen_h.png';
-import cm_v from '../../content/images/formated/cm_h.png';
-import ds_v from '../../content/images/formated/ds_h.png';
-import willow_v from '../../content/images/formated/willow_h.png';
-import dazzle_v from '../../content/images/formated/dazzle_h.png';
-import dp_v from '../../content/images/formated/dp_h.png';
-import disruptor_v from '../../content/images/formated/disruptor_h.png';
-import enchantress_v from '../../content/images/formated/enchantress_h.png';
-import enigma_v from '../../content/images/formated/enigma_h.png';
-import grimstroke_v from '../../content/images/formated/grimstroke_h.png';
-import invoker_v from '../../content/images/formated/invoker_h.png';
-import jakiro_v from '../../content/images/formated/jakiro_h.png';
-import kotl_v from '../../content/images/formated/kotl_h.png';
-import leshrac_v from '../../content/images/formated/leshrac_h.png';
-import lich_v from '../../content/images/formated/lich_h.png';
-import lina_v from '../../content/images/formated/lina_h.png';
-import lion_v from '../../content/images/formated/lion_h.png';
-import np_v from '../../content/images/formated/np_h.png';
-import necrophos_v from '../../content/images/formated/necrophos_h.png';
-import ogre_v from '../../content/images/formated/ogre_h.png';
-import oracle_v from '../../content/images/formated/oracle_h.png';
-import od_v from '../../content/images/formated/od_h.png';
-import puck_v from '../../content/images/formated/puck_h.png';
-import pugna_v from '../../content/images/formated/pugna_h.png';
-import qop_v from '../../content/images/formated/qop_h.png';
-import rubick_v from '../../content/images/formated/rubick_h.png';
-import sd_v from '../../content/images/formated/sd_h.png';
-import ss_v from '../../content/images/formated/ss_h.png';
-import silencer_v from '../../content/images/formated/silencer_h.png';
-import skywrath_v from '../../content/images/formated/skywrath_h.png';
-import storm_v from '../../content/images/formated/storm_h.png';
-import techies_v from '../../content/images/formated/techies_h.png';
-import tinker_v from '../../content/images/formated/tinker_h.png';
-import visage_v from '../../content/images/formated/visage_h.png';
-import vs_v from '../../content/images/formated/vs_h.png';
-import warlock_v from '../../content/images/formated/warlock_h.png';
-import windranger_v from '../../content/images/formated/windranger_h.png';
-import ww_v from '../../content/images/formated/ww_h.png';
-import wd_v from '../../content/images/formated/wd_h.png';
-import zeus_v from '../../content/images/formated/zeus_h.png';
+import aa_v from '../../content/images/horizontal/aa_h.webp';
+import bane_v from '../../content/images/horizontal/bane_h.webp';
+import batrider_v from '../../content/images/horizontal/batrider_h.webp';
+import chen_v from '../../content/images/horizontal/chen_h.webp';
+import cm_v from '../../content/images/horizontal/cm_h.webp';
+import ds_v from '../../content/images/horizontal/ds_h.webp';
+import willow_v from '../../content/images/horizontal/willow_h.webp';
+import dazzle_v from '../../content/images/horizontal/dazzle_h.webp';
+import dp_v from '../../content/images/horizontal/dp_h.webp';
+import disruptor_v from '../../content/images/horizontal/disruptor_h.webp';
+import enchantress_v from '../../content/images/horizontal/enchantress_h.webp';
+import enigma_v from '../../content/images/horizontal/enigma_h.webp';
+import grimstroke_v from '../../content/images/horizontal/grimstroke_h.webp';
+import invoker_v from '../../content/images/horizontal/invoker_h.webp';
+import jakiro_v from '../../content/images/horizontal/jakiro_h.webp';
+import kotl_v from '../../content/images/horizontal/kotl_h.webp';
+import leshrac_v from '../../content/images/horizontal/leshrac_h.webp';
+import lich_v from '../../content/images/horizontal/lich_h.webp';
+import lina_v from '../../content/images/horizontal/lina_h.webp';
+import lion_v from '../../content/images/horizontal/lion_h.webp';
+import np_v from '../../content/images/horizontal/np_h.webp';
+import necrophos_v from '../../content/images/horizontal/necrophos_h.webp';
+import ogre_v from '../../content/images/horizontal/ogre_h.webp';
+import oracle_v from '../../content/images/horizontal/oracle_h.webp';
+import od_v from '../../content/images/horizontal/od_h.webp';
+import puck_v from '../../content/images/horizontal/puck_h.webp';
+import pugna_v from '../../content/images/horizontal/pugna_h.webp';
+import qop_v from '../../content/images/horizontal/qop_h.webp';
+import rubick_v from '../../content/images/horizontal/rubick_h.webp';
+import sd_v from '../../content/images/horizontal/sd_h.webp';
+import ss_v from '../../content/images/horizontal/ss_h.webp';
+import silencer_v from '../../content/images/horizontal/silencer_h.webp';
+import skywrath_v from '../../content/images/horizontal/skywrath_h.webp';
+import storm_v from '../../content/images/horizontal/storm_h.webp';
+import techies_v from '../../content/images/horizontal/techies_h.webp';
+import tinker_v from '../../content/images/horizontal/tinker_h.webp';
+import visage_v from '../../content/images/horizontal/visage_h.webp';
+import vs_v from '../../content/images/horizontal/vs_h.webp';
+import warlock_v from '../../content/images/horizontal/warlock_h.webp';
+import windranger_v from '../../content/images/horizontal/windranger_h.webp';
+import ww_v from '../../content/images/horizontal/ww_h.webp';
+import wd_v from '../../content/images/horizontal/wd_h.webp';
+import zeus_v from '../../content/images/horizontal/zeus_h.webp';
 
 //horizontal
 //STRENGTH
@@ -262,242 +262,242 @@ export const strength = [
     horizontal: abaddon_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/alchemist',
     name: 'ALCHEMIST',
     vertical: alchemist_v,
     horizontal: alchemist_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/ancient-apparition',
     name: 'AXE',
     vertical: axe_v,
     horizontal: axe_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/beastmaster',
     name: 'BEASTMASTER',
     vertical: beastmaster_v,
     horizontal: beastmaster_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/brewmaster',
     name: 'BREWMASTER',
     vertical: brewmaster_v,
     horizontal: brewmaster_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/bristleback',
     name: 'BRISTLEBACK',
     vertical: bristleback_v,
     horizontal: bristleback_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/centaur-warrunner',
     name: 'CENTAUR WARRUNNER',
     vertical: centaur_v,
     horizontal: centaur_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/chaos-knight',
     name: 'CHAOS KNIGHT',
     vertical: ck_v,
     horizontal: ck_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/clockwerk',
     name: 'CLOCKWERK',
     vertical: clockwerk_v,
     horizontal: clockwerk_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/dawnbreaker',
     name: 'DAWNBREAKER',
     vertical: dawnbreaker_v,
     horizontal: dawnbreaker_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/doom',
     name: 'DOOM',
     vertical: doom_v,
     horizontal: doom_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/dragon-knight',
     name: 'DRAGON KNIGHT',
     vertical: dk_v,
     horizontal: dk_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/earth-spirit',
     name: 'EARTH SPIRIT',
     vertical: es_v,
     horizontal: es_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/earthshaker',
     name: 'EARTHSHAKER',
     vertical: earthshaker_v,
     horizontal: earthshaker_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/elder-titan',
     name: 'ELDER TITAN',
     vertical: et_v,
     horizontal: et_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/huskar',
     name: 'HUSKAR',
     vertical: huskar_v,
     horizontal: huskar_h,
   },
-  { link: 'https://www.dotabuff.com/heroes/abaddon', name: 'IO', vertical: io_v, horizontal: io_h },
+  { link: 'https://www.dotabuff.com/heroes/io', name: 'IO', vertical: io_v, horizontal: io_h },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/kunkka',
     name: 'KUNKA',
     vertical: kunka_v,
     horizontal: kunka_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/legion-commander',
     name: 'LEGION COMMANDER',
     vertical: lc_v,
     horizontal: lc_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/lifestealer',
     name: 'LIFESTEALER',
     vertical: lifestealer_v,
     horizontal: lifestealer_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/lycan',
     name: 'LYCAN',
     vertical: lycan_v,
     horizontal: lycan_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/magnus',
     name: 'MAGNUS',
     vertical: magnus_v,
     horizontal: magnus_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/marci',
     name: 'MARCI',
     vertical: marci_v,
     horizontal: marci_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/mars',
     name: 'MARS',
     vertical: mars_v,
     horizontal: mars_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/night-stalker',
     name: 'NIGHT STALKER',
     vertical: ns_v,
     horizontal: ns_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/omniknight',
     name: 'OMNIKNGIHT',
     vertical: omniknight_v,
     horizontal: omniknight_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/phoenix',
     name: 'PHOENIX',
     vertical: phoenix_v,
     horizontal: phoenix_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/primal-beast',
     name: 'PRIMAL BEAST',
     vertical: primal_v,
     horizontal: primal_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/pudge',
     name: 'PUDGE',
     vertical: pudge_v,
     horizontal: pudge_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/sand-king',
     name: 'SAND KING',
     vertical: sk_v,
     horizontal: sk_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/slardar',
     name: 'SLARDAR',
     vertical: slardar_v,
     horizontal: slardar_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/snapfire',
     name: 'SNAPFIRE',
     vertical: snapfire_v,
     horizontal: snapfire_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/spirit-breaker',
     name: 'SPIRIT BREAKER',
     vertical: sb_v,
     horizontal: sb_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/sven',
     name: 'SVEN',
     vertical: sven_v,
     horizontal: sven_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/tidehunter',
     name: 'TIDEHUNTER',
     vertical: tidehunter_v,
     horizontal: tidehunter_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/timbersaw',
     name: 'TIMBERSAW',
     vertical: timbersaw_v,
     horizontal: timbersaw_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/tiny',
     name: 'TINY',
     vertical: tiny_v,
     horizontal: tiny_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/treant-protector',
     name: 'THREANT PROTECTOR',
     vertical: treant_v,
     horizontal: treant_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/tusk',
     name: 'TUSK',
     vertical: tusk_v,
     horizontal: tusk_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/underlord',
     name: 'UNDERLORD',
     vertical: underlord_v,
     horizontal: underlord_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/undying',
     name: 'UNDYING',
     vertical: undying_v,
     horizontal: undying_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/wraith-king',
     name: 'WRAITH KING',
     vertical: wk_v,
     horizontal: wk_h,
@@ -506,229 +506,229 @@ export const strength = [
 
 export const agility = [
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/anti-mage',
     name: 'ANTI-MAGE',
     vertical: am_v,
     horizontal: am_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/arc-warden',
     name: 'ARC WARDEN',
     vertical: arc_v,
     horizontal: arc_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/bloodseeker',
     name: 'BLOODSEEKER',
     vertical: bloodseeker_v,
     horizontal: bloodseeker_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/bounty-hunter',
     name: 'BOUNTY HUNTER',
     vertical: bh_v,
     horizontal: bh_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/broodmother',
     name: 'BROODMOTHER',
     vertical: broodmother_v,
     horizontal: broodmother_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/clinkz',
     name: 'CLINKZ',
     vertical: clinkz_v,
     horizontal: clinkz_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/drow-ranger',
     name: 'DROW RANGER',
     vertical: drow_v,
     horizontal: drow_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/ember-spirit',
     name: 'EMBER SPIRIT',
     vertical: ember_v,
     horizontal: ember_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/faceless-void',
     name: 'FACELESS VOID',
     vertical: faceless_v,
     horizontal: faceless_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/gyrocopter',
     name: 'GYROCOPTER',
     vertical: gyrocopter_v,
     horizontal: gyrocopter_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/hoodwink',
     name: 'HOODWINK',
     vertical: hoodwink_v,
     horizontal: hoodwink_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/juggernaut',
     name: 'JUGGERNAUT',
     vertical: juggernaut_v,
     horizontal: juggernaut_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/lone-druid',
     name: 'LONE DRUID',
     vertical: ld_v,
     horizontal: ld_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/luna',
     name: 'LUNA',
     vertical: luna_v,
     horizontal: luna_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/medusa',
     name: 'MEDUZA',
     vertical: medusa_v,
     horizontal: medusa_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/meepo',
     name: 'MEEPO',
     vertical: meepo_v,
     horizontal: meepo_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/mirana',
     name: 'MIRANA',
     vertical: mirana_v,
     horizontal: mirana_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/monkey-king',
     name: 'MONKEY KING',
     vertical: mk_v,
     horizontal: mk_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/morphling',
     name: 'MORPHLING',
     vertical: morphling_v,
     horizontal: morphling_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/naga-siren',
     name: 'NAGA SIREN',
     vertical: naga_v,
     horizontal: naga_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/nyx-assassin',
     name: 'NYX ASSASSIN',
     vertical: nyx_v,
     horizontal: nyx_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/pangolier',
     name: 'PANGOLIER',
     vertical: pangolier_v,
     horizontal: pangolier_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/phantom-assassin',
     name: 'PHANTOM ASSASSIN',
     vertical: pa_v,
     horizontal: pa_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/phantom-lancer',
     name: 'PHANTOM LANCER',
     vertical: pl_v,
     horizontal: pl_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/razor',
     name: 'RAZOR',
     vertical: razor_v,
     horizontal: razor_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/riki',
     name: 'RIKI',
     vertical: riki_v,
     horizontal: riki_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/shadow-fiend',
     name: 'SHADOW FIEND',
     vertical: sf_v,
     horizontal: sf_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/slark',
     name: 'SLARK',
     vertical: slark_v,
     horizontal: slark_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/sniper',
     name: 'SNIPER',
     vertical: sniper_v,
     horizontal: sniper_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/spectre',
     name: 'SPECTRE',
     vertical: spectre_v,
     horizontal: spectre_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/templar-assassin',
     name: 'TEMPLAR ASSASSIN',
     vertical: ta_v,
     horizontal: ta_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/terrorblade',
     name: 'TERRORBLADE',
     vertical: terrorblade_v,
     horizontal: terrorblade_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/troll-warlord',
     name: 'TROLL WARLORD',
     vertical: troll_v,
     horizontal: troll_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/ursa',
     name: 'URSA',
     vertical: ursa_v,
     horizontal: ursa_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/vengeful-spirit',
     name: 'VENGEFUL SPIRIT',
     vertical: venge_v,
     horizontal: venge_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/venomancer',
     name: 'VENOMANCER',
     vertical: venomancer_v,
     horizontal: venomancer_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/viper',
     name: 'VIPER',
     vertical: viper_v,
     horizontal: viper_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/weaver',
     name: 'WEAVER',
     vertical: weaver_v,
     horizontal: weaver_h,
@@ -737,259 +737,259 @@ export const agility = [
 
 export const intelligence = [
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/ancient-apparition',
     name: 'ANCIENT APPARITION',
     vertical: aa_v,
     horizontal: aa_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/bane',
     name: 'BANE',
     vertical: bane_v,
     horizontal: bane_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/batrider',
     name: 'BATRIDER',
     vertical: batrider_v,
     horizontal: batrider_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/chen',
     name: 'CHEN',
     vertical: chen_v,
     horizontal: chen_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/crystal-maiden',
     name: 'CRYSTAL MAIDEN',
     vertical: cm_v,
     horizontal: cm_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/dark-seer',
     name: 'DARK SEER',
     vertical: ds_v,
     horizontal: ds_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/dark-willow',
     name: 'DARK WILLOW',
     vertical: willow_v,
     horizontal: willow_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/dazzle',
     name: 'DAZZLE',
     vertical: dazzle_v,
     horizontal: dazzle_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/death-prophet',
     name: 'DEATH PROPHET',
     vertical: dp_v,
     horizontal: dp_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/disruptor',
     name: 'DISRUPTOR',
     vertical: disruptor_v,
     horizontal: disruptor_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/enchantress',
     name: 'ENCHANTRESS',
     vertical: enchantress_v,
     horizontal: enchantress_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/enigma',
     name: 'ENIGMA',
     vertical: enigma_v,
     horizontal: enigma_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/grimstroke',
     name: 'GRIMSTROKE',
     vertical: grimstroke_v,
     horizontal: grimstroke_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/invoker',
     name: 'INVOKER',
     vertical: invoker_v,
     horizontal: invoker_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/jakiro',
     name: 'JAKIRO',
     vertical: jakiro_v,
     horizontal: jakiro_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/keeper-of-the-light',
     name: 'KEEPER OF THE LIGHT',
     vertical: kotl_v,
     horizontal: kotl_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/leshrac',
     name: 'LESHRAC',
     vertical: leshrac_v,
     horizontal: leshrac_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/lich',
     name: 'LICH',
     vertical: lich_v,
     horizontal: lich_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/lina',
     name: 'LINA',
     vertical: lina_v,
     horizontal: lina_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/lion',
     name: 'LION',
     vertical: lion_v,
     horizontal: lion_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/natures-prophet',
     name: 'NATURES PROPHET',
     vertical: np_v,
     horizontal: np_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/necrophos',
     name: 'NECROPHOS',
     vertical: necrophos_v,
     horizontal: necrophos_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/ogre-magi',
     name: 'OGRE MAGI',
     vertical: ogre_v,
     horizontal: ogre_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/oracle',
     name: 'ORACLE',
     vertical: oracle_v,
     horizontal: oracle_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/outworld-destroyer',
     name: 'OUTWORLD DESTROYER',
     vertical: od_v,
     horizontal: od_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/puck',
     name: 'PUCK',
     vertical: puck_v,
     horizontal: puck_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/pugna',
     name: 'PUGNA',
     vertical: pugna_v,
     horizontal: pugna_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/queen-of-pain',
     name: 'QUEEN OF PAIN',
     vertical: qop_v,
     horizontal: qop_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/rubick',
     name: 'RUBICK',
     vertical: rubick_v,
     horizontal: rubick_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/shadow-demon',
     name: 'SHADOW DEMON',
     vertical: sd_v,
     horizontal: sd_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/shadow-shaman',
     name: 'SHADOW SHAMAN',
     vertical: ss_v,
     horizontal: ss_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/silencer',
     name: 'SILENCER',
     vertical: silencer_v,
     horizontal: silencer_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/skywrath-mage',
     name: 'SKYWRATH MAGE',
     vertical: skywrath_v,
     horizontal: skywrath_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/storm-spirit',
     name: 'STORM SPIRIT',
     vertical: storm_v,
     horizontal: storm_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/techies',
     name: 'TECHIES',
     vertical: techies_v,
     horizontal: techies_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
-    name: 'TIMKER',
+    link: 'https://www.dotabuff.com/heroes/tinker',
+    name: 'TINKER',
     vertical: tinker_v,
     horizontal: tinker_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/visage',
     name: 'VISAGE',
     vertical: visage_v,
     horizontal: visage_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/void-spirit',
     name: 'VOID SPIRIT',
     vertical: vs_v,
     horizontal: vs_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/warlock',
     name: 'WARLOCK',
     vertical: warlock_v,
     horizontal: warlock_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/windranger',
     name: 'WINDRANGER',
     vertical: windranger_v,
     horizontal: windranger_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/winter-wyvern',
     name: 'WINTER WYVERN',
     vertical: ww_v,
     horizontal: ww_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/witch-doctor',
     name: 'WITCH DOCTOR',
     vertical: wd_v,
     horizontal: wd_h,
   },
   {
-    link: 'https://www.dotabuff.com/heroes/abaddon',
+    link: 'https://www.dotabuff.com/heroes/zeus',
     name: 'ZEUS',
     vertical: zeus_v,
     horizontal: zeus_h,

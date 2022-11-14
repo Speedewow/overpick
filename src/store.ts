@@ -1,9 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import pickReducer from './reducers/reducer';
+import { pickReducer, startReducer } from './slices';
 
 export const store = configureStore({
   reducer: {
     pick: pickReducer,
+    start: startReducer,
   },
 });
 

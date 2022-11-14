@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useAppDispatch, useAppSelector } from '../../../../src/hooks';
 import { direPickSelector } from '../../../selectors';
-import { removeDireHero } from '../../../reducers/reducer';
+import { removeDireHero } from '../../../slices/pickSlice';
 import { HeroInterface } from '../../../data/types';
 import styles from '../styles.module.scss';
 
@@ -25,6 +25,7 @@ export const Dire = () => {
             className={styles.hero}
             src={hero.horizontal}
             draggable="false"
+            alt={hero.name}
           />
         );
     });

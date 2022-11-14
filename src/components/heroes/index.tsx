@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useAppDispatch, useHeroStatus, useSearch } from '../../hooks';
-import { addHero } from '../../reducers/reducer';
+import { addHero } from '../../slices/pickSlice';
 import { Search } from './search-input/';
 import { Hero } from './hero/';
 import { HeroInterface } from '../../data/types';

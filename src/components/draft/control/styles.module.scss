@@ -12,44 +12,58 @@
   border-radius: 50%;
   position: relative;
   margin-top: -5px;
-  transition: 0.4s;
+  transition: 0.8s;
   cursor: pointer;
+  animation: pulse 2s linear infinite;
   &::before {
-    margin: 0;
+    content: "";
     width: 60px;
     height: 60px;
     z-index: 2;
-    content: "";
     position: absolute;
     top: 0;
     left: 0;
     background: no-repeat center/contain url(../../../../content/icons/startIconActive.svg);
   }
   &::after {
-    margin: 0;
     content: "";
     width: 25px;
     height: 25px;
-    background-color: transparent;
-    border: none;
-    border-radius: 50%;
-    box-shadow: 0px 0px 10px 10px #00bfff;
     z-index: 1;
     position: absolute;
     top: 22px;
     left: 17px;
-  }
-  &:hover {
-    transform: scale(1.2);
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px #00bfff;
   }
   &Disable {
-    opacity: 0.7;
+    opacity: 0.5;
     pointer-events: none;
     width: 60px;
     height: 60px;
     background: no-repeat center/contain url(../../../../content/icons/startIcon.svg);
     border: none;
     margin-top: -5px;
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.9);
   }
 }
 
