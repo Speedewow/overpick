@@ -1,2 +1,2 @@
-export const BACK = 'BACK' as const;
-export const TEXT = 'Coming soon...' as const;
+export const NEW = 'NEW PICK' as const;
+export const TITLE = 'ANALYSIS' as const;

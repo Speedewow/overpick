@@ -1,3 +1,5 @@
+@import "../../../colors/colors.scss";
+
 .hero {
   list-style: none;
   width: 50px;
@@ -6,7 +8,7 @@
   transition: 0.4s;
   cursor: pointer;
   position: relative;
-  background-color: #343d47;
+  background-color: $border;
   .hidden {
     display: none;
   }
@@ -21,14 +23,14 @@
   &Drag {
     z-index: 2;
     transform: scale(1.8);
-    outline: 1px solid #343d47;
-    box-shadow: 0px 0px 10px 3px #00bfff;
+    outline: 1px solid $border;
+    box-shadow: 0px 0px 10px 3px $active;
   }
   &:hover {
     z-index: 2;
     transform: scale(1.8);
-    outline: 1px solid #343d47;
-    box-shadow: 0px 0px 10px 3px #00bfff;
+    outline: 1px solid $border;
+    box-shadow: 0px 0px 10px 3px $active;
     .name {
       font-weight: 400;
       display: block;
@@ -37,8 +39,8 @@
       position: absolute;
       bottom: 0;
       margin: auto;
-      color: #ede0e0;
-      background-color: #000000b3;
+      color: $name;
+      background-color: $name-overlay;
       padding-bottom: 2px;
       padding-top: 2px;
       transition: 0.4s;
@@ -86,7 +88,7 @@
 .overlayDisable {
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: $overlay;
   opacity: 0.7;
   z-index: 1;
   position: absolute;
@@ -96,7 +98,7 @@
 .overlayDire {
   width: 100%;
   height: 100%;
-  background: linear-gradient(#000000, #000000, #ff0000);
+  background: linear-gradient($overlay, $overlay, $dire);
   opacity: 0.7;
   z-index: 1;
   position: absolute;
@@ -106,7 +108,7 @@
 .overlayRadiant {
   width: 100%;
   height: 100%;
-  background: linear-gradient(#000000, #000000, #008000);
+  background: linear-gradient($overlay, $overlay, $radiant);
   opacity: 0.7;
   z-index: 1;
   position: absolute;

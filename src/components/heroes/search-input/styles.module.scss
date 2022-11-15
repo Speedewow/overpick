@@ -1,3 +1,5 @@
+@import "../../../colors/colors.scss";
+
 .search {
   position: absolute;
   height: 24px;
@@ -7,11 +9,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 2px solid #343d47;
-  color: #343d47;
+  border: 2px solid $border;
+  color: $secondary;
   outline: none;
   border-radius: 12px;
   &:hover {
+    border: 2px solid $secondary;
     .input {
       width: 125px;
       padding: 3px 5px;
@@ -22,7 +25,7 @@
     width: 13px;
     height: 13px;
     display: block;
-    color: #343d47;
+    color: $secondary;
     background: no-repeat center/contain url(../../../../content/icons/searchIcon.svg);
   }
   .input {
@@ -34,13 +37,13 @@
     border: none;
     font-size: 14px;
     line-height: 1;
-    color: #4f5b68;
+    color: $secondary;
     &:focus {
       width: 125px;
       padding: 3px 5px;
     }
     &::placeholder {
-      color: #4f5b68;
+      color: $secondary;
     }
   }
 }
