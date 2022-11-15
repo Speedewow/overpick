@@ -1,23 +1,50 @@
+@import "../../../colors/colors.scss";
+
 .stats {
   width: 50%;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    border-left: 0;
+    border-right: 0;
+    background-color: $border;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
 }
 
-.text {
+.title {
   font-size: 60px;
   text-align: center;
-  color: #4f5b68;
+  color: $name;
+  margin-top: 350px;
+  padding: 0;
 }
 
 .button {
-  margin-top: 15px;
-  width: 250px;
+  box-sizing: content-box;
+  margin-bottom: 30px;
+  width: 150px;
   height: 80px;
-  background-color: #343d47;
+  background-color: $border;
   border: none;
   cursor: pointer;
   opacity: 0.7;
@@ -25,13 +52,10 @@
   transition: 0.4s;
   font-weight: 400;
   font-size: 20px;
-  color: #ede0e0;
-  padding: 0;
+  color: $name;
   &:hover {
-    padding: 0;
     opacity: 1;
-    transform: scale(1.1);
     outline: 1px solid #343d47;
-    box-shadow: 0px 0px 5px 1px #ede0e0;
+    box-shadow: 0px 0px 5px 1px $name;
   }
 }

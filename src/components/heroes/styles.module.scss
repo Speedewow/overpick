@@ -1,3 +1,5 @@
+@import "../../colors/colors.scss";
+
 .container {
   display: flex;
   flex-direction: column;
@@ -23,7 +25,7 @@
   position: absolute;
   top: -40px;
   left: 25px;
-  color: #4f5b68;
+  color: $secondary;
   font-weight: 900;
   font-size: 14px;
   &::before {
