@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { useAppDispatch } from '../../../hooks';
+import { pickSelector, startSelector } from '../../../selectors';
+import { useAnalysis, useAppDispatch, useAppSelector } from '../../../hooks';
 import { clearState } from '../../../slices/pickSlice';
 import { setEnd } from '../../../slices/startSlice';
 import { NEW, TITLE } from './constants';
@@ -7,7 +8,11 @@ import { Stat } from './stat';
 import styles from './styles.module.scss';
 
 export const Stats = () => {
+  const pick = useAppSelector(pickSelector);
   const dispatch = useAppDispatch();
+  const start = useAppSelector(startSelector);
+
+  start && useAnalysis(pick.radiant, pick.dire);
 
   const handleBack = () => {
     dispatch(clearState());
