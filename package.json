@@ -1,11 +1,13 @@
 {
   "name": "overpick",
   "version": "1.0.0",
-  "description": "",
+  "homepage": "https://speedewow.github.io/overpick.gg",
   "main": "index.tsx",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --history-api-fallback",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Igor Galdovich",
@@ -20,6 +22,7 @@
     "@types/react-dom": "^18.0.6",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
     "sass": "^1.55.0",
