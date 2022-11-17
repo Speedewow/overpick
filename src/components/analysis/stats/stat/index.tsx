@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 
 export const Stat = ({ name, condition }: Props) => {
   const barWidth = {
-    width: `${condition}%`,
+    width: `${50 + condition}%`,
   };
   return (
     <div className={styles.container}>
@@ -13,8 +13,8 @@ export const Stat = ({ name, condition }: Props) => {
         <span style={barWidth}></span>
       </div>
       <div className={styles.rate}>
-        <p className={styles.info}>{condition}</p>
-        <p className={styles.info}>{100 - condition}</p>
+        <p className={styles.info}>{(50 + condition).toFixed(2) + '%'}</p>
+        <p className={styles.info}>{(50 - condition).toFixed(2) + '%'}</p>
       </div>
     </div>
   );
