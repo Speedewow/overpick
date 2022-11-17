@@ -1,8 +1,15 @@
 export interface HeroInterface {
   name: string;
   link: string;
-  vertical: any;
-  horizontal: any;
+  vertical: string;
+  horizontal: string;
+}
+export interface StatsInterface {
+  [key: string]: number;
+}
+
+export interface HeroStatsInterface {
+  [key: string]: StatsInterface;
 }
 
 export type PickType = {
@@ -21,3 +28,29 @@ export enum HeroStatus {
   Radiant = 2,
   Dire = 3,
 }
+
+// export interface StatsInterface {
+//   name?: string;
+//   earlyGame: number;
+//   middleGame: number;
+//   lateGame: number;
+//   laning: number;
+//   push: number;
+//   roshan: number;
+//   fight: number;
+//   vision: number;
+//   initiation: number;
+//   soloControl: number;
+//   bkbControl: number;
+//   massControl: number;
+//   magicDamage: number;
+//   physicalDamage: number;
+//   burstDamage: number;
+//   heal: number;
+//   save: number;
+//   buff: number;
+//   durability: number;
+//   escape: number;
+//   mobility: number;
+//   meta: number;
+// }
