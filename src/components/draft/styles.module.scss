@@ -15,21 +15,53 @@
   flex-direction: row;
   align-items: center;
   gap: 3px;
+
   .item {
     width: 90px;
     height: 50px;
-    background-color: $border;
+    position: relative;
   }
+
   .hero {
     width: 90px;
     height: 50px;
-    object-fit: cover;
-    &:hover {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.3s linear, opacity 0.3s linear;
+    &Active {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 90px;
       height: 50px;
-      opacity: 0.7;
-      box-shadow: 0px 0px 10px 1px $dire;
-      cursor: pointer;
+      z-index: 1;
+      opacity: 1;
+      visibility: visible;
+      .image {
+        width: 90px;
+        height: 50px;
+        object-fit: cover;
+        &:hover {
+          width: 90px;
+          height: 50px;
+          opacity: 0.7;
+          box-shadow: 0px 0px 10px 1px $dire;
+          cursor: pointer;
+        }
+      }
     }
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 50px;
+    background-color: $border;
+    z-index: 0;
   }
 }
