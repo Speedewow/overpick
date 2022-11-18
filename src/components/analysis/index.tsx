@@ -8,10 +8,10 @@ import styles from './styles.module.scss';
 
 export const Analysis = () => {
   const start = useAppSelector(startSelector);
-  const CN = start ? styles.analysisActive : styles.analysis;
+  const analysisClassName = start ? styles.analysisActive : styles.analysis;
 
   return (
-    <div className={CN}>
+    <div className={analysisClassName}>
       <Radiant />
       <Stats />
       <Dire />
