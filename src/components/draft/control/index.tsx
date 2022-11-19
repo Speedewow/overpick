@@ -1,4 +1,5 @@
 import * as React from 'react';
+import cx from 'classnames';
 import { pickSelector } from '../../../selectors';
 import { useAppDispatch, useAppSelector } from '../../../hooks';
 import { clearState } from '../../../slices/pickSlice';
@@ -10,14 +11,14 @@ export const Control = () => {
   const pick = useAppSelector(pickSelector);
   const dispatch = useAppDispatch();
 
-  const ResetClassName =
-    pick.radiant.some(element => element !== null) || pick.dire.some(element => element !== null)
-      ? styles.reset
-      : styles.resetDisable;
-  const StartClassName =
-    pick.radiant.every(element => element !== null) && pick.dire.every(element => element !== null)
-      ? styles.start
-      : styles.startDisable;
+  const startCondition =
+    pick.radiant.every(element => element !== null) && pick.dire.every(element => element !== null);
+  const resetCondition =
+    pick.radiant.some(element => element !== null) || pick.dire.some(element => element !== null);
+
+  const ResetClassName = resetCondition ? styles.reset : styles.resetDisable;
+  const StartDisableClassName = cx(styles.disable, startCondition && styles.disableHidden);
+  const StartClassName = cx(styles.start, startCondition && styles.startVisible);
 
   const handleReset = () => {
     dispatch(clearState());
@@ -28,7 +29,10 @@ export const Control = () => {
 
   return (
     <div className={styles.container}>
-      <button className={StartClassName} onClick={handleStart} aria-label={START} />
+      <div className={styles.replace}>
+        <button className={StartDisableClassName} aria-label={START} />
+        <button className={StartClassName} onClick={handleStart} aria-label={START} />
+      </div>
       <button className={ResetClassName} onClick={handleReset} aria-label={RESET}>
         {RESET}
       </button>
