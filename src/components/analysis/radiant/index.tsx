@@ -1,4 +1,5 @@
 import * as React from 'react';
+import cx from 'classnames';
 import { useAppSelector } from '../../../hooks';
 import { radiantPickSelector, startSelector } from '../../../selectors';
 import { HeroInterface } from '../../../data/types';
@@ -7,7 +8,10 @@ import styles from './styles.module.scss';
 export const Radiant = () => {
   const start = useAppSelector(startSelector);
   const heroes = useAppSelector(radiantPickSelector);
-  const containerClassName = start ? styles.container : styles.containerHidden;
+  const containerClassName = cx(
+    styles.container,
+    start ? styles.containerVisible : styles.containerHidden
+  );
 
   return (
     <ul className={containerClassName}>

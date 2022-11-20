@@ -37,6 +37,12 @@
   color: $name;
   padding: 0;
   margin: 0;
+  transition: 0.5s linear;
+  &Hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 .button {
@@ -53,6 +59,12 @@
   font-weight: 400;
   font-size: 20px;
   color: $name;
+  transition: 0.5s linear;
+  &Hidden {
+    transform: translateY(100%);
+    opacity: 0;
+    visibility: hidden;
+  }
   &:hover {
     opacity: 1;
     outline: 1px solid #343d47;
