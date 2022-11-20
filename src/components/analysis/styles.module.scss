@@ -6,20 +6,17 @@
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0;
-  visibility: hidden;
+  display: flex;
+  flex-direction: row;
+  transition: visibility 0.8s linear, opacity 0.8s linear;
+  background-color: $primary;
+  z-index: 1;
   &Active {
-    transition: visibility 0.8s linear, opacity 0.8s linear;
-    z-index: 2;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: $primary;
     opacity: 1;
     visibility: visible;
-    display: flex;
-    flex-direction: row;
+  }
+  &Disable {
+    opacity: 0;
+    visibility: hidden;
   }
 }

@@ -11,15 +11,16 @@
   gap: 45px;
   padding: 0;
   margin: 0;
-  transition: 1s;
-  transform: translateX(0);
-  visibility: visible;
-  // border-left: 2px solid $secondary;
-  // border-radius: 10%;
+  transition: 0.8s;
+  &Visible {
+    transform: translateX(0);
+    visibility: visible;
+  }
   &Hidden {
     visibility: hidden;
     transform: translateX(150%);
   }
+
   .hero {
     margin-left: 85px;
     width: 100%;
